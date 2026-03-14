@@ -120,7 +120,7 @@ Formatting runs automatically on save.
 |-----|------|--------|
 | `<leader>ff` | Normal | Find files |
 | `<leader>fg` | Normal | Live grep |
-| `<leader>fb` | Normal | Open buffers |
+| `<leader>fb` | Normal | Open buffers (sorted by last used, current buffer hidden) |
 
 ### LSP
 
