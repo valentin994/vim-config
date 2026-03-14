@@ -17,6 +17,7 @@ return {
       telescope.setup({
         pickers = {
           buffers = {
+            sort_lastused = true,
             mappings = {
               i = {
                 ["<C-d>"] = actions.delete_buffer,

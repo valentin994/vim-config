@@ -31,3 +31,6 @@ vim.o.foldlevelstart = 99
 vim.o.foldenable = true
 
 vim.opt.splitright = true
+
+vim.g.copilot_no_tab_map = true
+vim.keymap.set('i', '<Right>', 'copilot#Accept("\\<Right>")', { expr = true, replace_keycodes = false, silent = true })
